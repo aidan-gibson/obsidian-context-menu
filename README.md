@@ -1,3 +1,6 @@
+Wait for all other plug-ins to load.
+Give complete customization of context menu. Be mindful that context menu is diff depending on what you're right-clicking on.
+
 # Obsidian Sample Plugin
 
 This is a sample plugin for Obsidian (https://obsidian.md).
