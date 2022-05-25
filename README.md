@@ -1,5 +1,19 @@
 Wait for all other plug-ins to load.
 Give complete customization of context menu. Be mindful that context menu is diff depending on what you're right-clicking on.
+(might have to DOM replace entire menu)
+
+obsid api
+/**
+* Triggered when the user opens the context menu on a file.
+* @public
+*/
+on(name: 'file-menu', callback: (menu: Menu, file: TAbstractFile, source: string, leaf?: WorkspaceLeaf) => any, ctx?: any): EventRef;
+
+/**
+* Triggered when the user opens the context menu on an editor.
+* @public
+*/
+on(name: 'editor-menu', callback: (menu: Menu, editor: Editor, view: MarkdownView) => any, ctx?: any): EventRef;
 
 # Obsidian Sample Plugin
 
